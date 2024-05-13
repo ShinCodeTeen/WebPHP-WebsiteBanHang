@@ -1,0 +1,68 @@
+.container {
+    display: flex;
+}
+
+.container .sanpham_img {
+    max-width: 500px;
+    max-height: 400px;
+    min-width: 400px;
+    min-height: 500px;
+}
+
+.container .sanpham_img img {
+    max-width: 500px;
+    max-height: 400px;
+    min-width: 500px;
+    min-height: 400px;
+    margin: 15px;
+}
+
+.sanpham_inf {
+    display: block;
+    margin: 30px;
+    width: calc(100vw-500px);
+    max-height: 300px;
+}
+
+.sanpham_inf p {
+    margin-top: 15px;
+}
+
+.sanpham_inf h4 {
+    margin-top: 10px;
+    color: #f00;
+    margin-right: 10px;
+}
+
+.sanpham_inf del {
+    margin-left: 15px;
+}
+
+.sanpham_inf .a_sp {
+    display: flex;
+    margin-top: 20px;
+    margin-top: 35%;
+}
+
+.sanpham_inf a {
+    height: 40px;
+    width: 200px;
+    text-decoration: none;
+    font-size: 25px;
+    background-color: #f00;
+    color: #fff;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    border-radius: 16px;
+}
+
+.sanpham_inf a:hover {
+    background-color: #fff;
+    color: #f00;
+    border: 1px solid #f00;
+}
+
+.sanpham_inf i {
+    margin-right: 10px;
+}

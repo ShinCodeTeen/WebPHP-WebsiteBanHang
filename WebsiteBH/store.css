@@ -1,0 +1,172 @@
+.container {
+    display: flex;
+    width: 100%;
+}
+
+.thuonghieu {
+    width: 200px;
+    margin-left: 20px;
+    margin-top: 20px;
+}
+
+.thuonghieu .checkbox-filter {
+    display: flex;
+    padding: 5px;
+}
+
+.thuonghieu .checkbox-filter label {
+    height: 100%;
+    margin-left: 10px;
+    margin-top: 2px;
+}
+
+.header-search {
+    display: flex;
+    width: 100%;
+    height: 50px;
+    align-items: center;
+}
+
+.header-search h3 {
+    margin-left: 250px;
+}
+
+.header-search form {
+    display: flex;
+    margin-left: auto;
+    margin-right: 150px;
+    background-color: #fff;
+    height: 35px;
+    align-items: center;
+    border-radius: 5px;
+}
+
+.header-search form input {
+    height: 100%;
+    width: 200px;
+    padding: 5px;
+    border: 0.5px solid #f00;
+}
+
+.sanpham {
+    flex: 1;
+    display: flex;
+    flex-wrap: wrap;
+    padding: 0 15px 15px 15px;
+}
+
+.sanpham h3 {
+    width: 100%;
+    padding-left: 15px;
+}
+
+.product {
+    width: 260px;
+    height: 360px;
+    margin: 15px;
+    border: 1px solid #ccc;
+}
+
+.product-img {
+    width: 100%;
+    height: 200px;
+}
+
+.product-img img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.product-body {
+    margin-top: 10px;
+    align-items: center;
+    text-align: center;
+}
+
+.product-body a {
+    text-decoration: none;
+    color: #000;
+}
+
+.product-body a:hover {
+    color: #f00;
+}
+
+.product-name {
+    font-size: 16px;
+    font-weight: bold;
+    margin-bottom: 5px;
+}
+
+.product-price {
+    font-size: 14px;
+    color: #f00;
+    margin-bottom: 5px;
+}
+
+.product-old-price {
+    font-size: 12px;
+    color: #999;
+    text-decoration: line-through;
+}
+
+.trang_sp {
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    align-content: center;
+    align-items: center;
+}
+
+.trang_sp a {
+    text-decoration: none;
+    color: #585757;
+    margin: 10px;
+}
+
+.trang_sp strong {
+    color: #f00;
+}
+
+
+/* Style for the "product-btns" div */
+
+.btn_sp {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    align-content: center;
+    justify-content: center;
+    margin-bottom: 15px;
+    height: 30px;
+    margin-top: 10px;
+}
+
+.btn_sp i {
+    margin-left: 40px;
+    margin-right: 20px;
+}
+
+.btn_sp a {
+    text-decoration: none;
+}
+
+.a_sp {
+    display: flex;
+    width: 240px;
+    height: 35px;
+    background-color: #f00;
+    align-items: center;
+    text-align: center;
+    border-radius: 19px;
+    color: #fff;
+    font-size: 20px;
+    border: 1px solid #f00;
+}
+
+.a_sp:hover {
+    color: #f00;
+    background-color: #fff;
+    cursor: pointer;
+}

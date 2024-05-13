@@ -1,0 +1,112 @@
+.container {
+    display: flex;
+}
+
+.donhang_inf {
+    flex: 1;
+    padding: 20px;
+    background-color: #f2f2f2;
+}
+
+.giaohang_inf {
+    flex: 1;
+    padding: 20px;
+    background-color: #f7ecece1;
+}
+
+.product {
+    display: flex;
+    margin-bottom: 20px;
+    border: 0.5px solid #ccc;
+}
+
+.product-img {
+    max-width: 100px;
+    max-height: 100px;
+}
+
+.product-img img {
+    max-width: 100px;
+    max-height: 100px;
+}
+
+.product-info {
+    display: flex;
+    margin-left: 20px;
+    min-width: 600px;
+    min-height: 100px;
+    align-items: center;
+}
+
+.product-name {
+    font-size: 18px;
+    font-weight: bold;
+}
+
+.product-count {
+    font-size: 16px;
+    color: #888888;
+    margin-left: auto;
+    margin-right: 100px;
+}
+
+.product-price {
+    color: #f00;
+}
+
+.tong_tien {
+    display: flex;
+    width: 100%;
+    align-items: center;
+    border: 0.5px solid #ccc;
+    border-style: solid none none none;
+}
+
+.tong_tien h3 {
+    margin-top: 10px;
+}
+
+.tong_tien p {
+    color: #f00;
+    margin-left: auto;
+    margin-top: 10px;
+    margin-right: 100px;
+}
+
+form {
+    margin-top: 20px;
+}
+
+form div {
+    margin-bottom: 10px;
+}
+
+label {
+    display: block;
+    font-weight: bold;
+}
+
+input[type="text"],
+input[type="tel"],
+input[type="email"],
+textarea {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    margin-top: 10px;
+}
+
+button[type="submit"] {
+    padding: 10px 20px;
+    background-color: #f00;
+    color: white;
+    border: none;
+    cursor: pointer;
+    font-weight: 600;
+}
+
+button[type="submit"]:hover {
+    background-color: #fff;
+    color: #f00;
+    border: 0.5px solid #f00;
+}
